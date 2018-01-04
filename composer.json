@@ -1,0 +1,14 @@
+{
+    "name": "anoop/khalti",
+    "description": "Khalti integration for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anoop Srma",
+            "email": "navyanup1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
