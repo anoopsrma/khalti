@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/username/hello-world"
+            "url": "https://github.com/anoopsrma/khalti"
         }
     ],
     "require": {
