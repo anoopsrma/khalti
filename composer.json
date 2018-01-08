@@ -25,7 +25,7 @@
         },
         "laravel": {
             "providers": [
-                "Anoop\\Khalti\\ServiceProvider"
+                "Anoop\\Khalti\\KhaltiServiceProvider"
             ]
         }
     },
