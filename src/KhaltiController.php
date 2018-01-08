@@ -13,6 +13,6 @@ class KhaltiController extends Controller
     }
 
     public function subtract($a, $b){
-    	echo $a - $b;
+    	return ($a - $b);
     }
 }
