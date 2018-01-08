@@ -1,14 +1,46 @@
 {
     "name": "anoop/khalti",
     "description": "Khalti integration for Laravel",
+<<<<<<< HEAD
     "type": "library",
     "license": "MIT",
+=======
+    "license": "MIT",
+    "keywords": ["laravel", "khalti", "e-payment"],
+>>>>>>> cc35458712ceccee72083f785913cf320acaccdb
     "authors": [
         {
             "name": "Anoop Srma",
             "email": "navyanup1@gmail.com"
         }
     ],
+<<<<<<< HEAD
     "minimum-stability": "dev",
     "require": {}
 }
+=======
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/anoopsrma/khalti"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Anoop\\Khalti\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anoop\\Khalti\\KhaltiServiceProvider"
+            ]
+        }
+    }
+}
+>>>>>>> cc35458712ceccee72083f785913cf320acaccdb

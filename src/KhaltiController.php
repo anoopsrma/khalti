@@ -25,5 +25,9 @@ class KhaltiController extends Controller
 
     	//before verification for reference purposes 
     	$khalti = $this->khalti->create($data);
+
+    public function subtract($a, $b)
+    {
+    	return ($a - $b);
     }
 }

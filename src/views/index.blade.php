@@ -42,6 +42,7 @@
             "publicKey": "{{env('KHALTI_TEST_PUBLIC', '')}}",
             "productIdentity": "1234567890",
             "productName": "Account Topup",
+            "productName": "Dragon",
             "productUrl": "http://gameofthrones.wikia.com/wiki/Dragons",
             "eventHandler": {
                 onSuccess (payload) {
@@ -76,7 +77,6 @@
 		};
         var checkout = new KhaltiCheckout(config);
         var btn = document.getElementById("payment-button");
-        
         btn.onclick = function (e) {
         	e.preventDefault();
         	var amount = parseFloat($('#amount').val() * 100.00);
