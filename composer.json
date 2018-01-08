@@ -9,6 +9,12 @@
             "email": "navyanup1@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/username/hello-world"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x"
