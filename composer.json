@@ -20,14 +20,10 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "0.8-dev"
-        },
         "laravel": {
             "providers": [
                 "Anoop\\Khalti\\KhaltiServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
