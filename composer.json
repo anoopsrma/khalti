@@ -16,7 +16,7 @@
 
     "autoload": {
         "psr-4": {
-            "Anoop\\Khalti\\": "packages/anoop/khalti/src"
+            "Anoop\\Khalti\\": "src"
         }
     },
     "extra": {
