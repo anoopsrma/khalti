@@ -12,15 +12,15 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "version": "1.0.0",
     "repositories": [
         {
-            "type": "vcs",
             "url": "https://github.com/anoopsrma/khalti"
         }
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "5.1.x|5.2.x|5.3.x|5.4.x|5.5.x"
+        "illuminate/support": "5.3.x|5.4.x|5.5.x"
     },
 
     "autoload": {

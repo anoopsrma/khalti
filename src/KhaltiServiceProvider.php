@@ -13,8 +13,9 @@ class KhaltiServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
         include __DIR__.'/routes.php';
+
+        $this->publishes([__DIR__ . '/migrations' => $this->app->databasePath() . '/migrations'], 'migrations');
     }
 
     /**
@@ -24,8 +25,8 @@ class KhaltiServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
         $this->app->make('Anoop\Khalti\KhaltiController');
         $this->loadViewsFrom(__DIR__.'/views', 'khalti');
+        $this->mergeConfigFrom(__DIR__ . '/config/khalti.php', 'anoop-khalti');
     }
 }
