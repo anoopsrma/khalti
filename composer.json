@@ -10,8 +10,7 @@
             "email": "navyanup1@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "minimum-stability": "stable",
     "version": "1.0.0",
     "repositories": [
         {
