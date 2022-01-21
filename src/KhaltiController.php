@@ -17,7 +17,9 @@ class KhaltiController extends Controller
 
     public function showPurchaseForm()
     {
-    	return view('khalti::index');
+    	return view('khalti::index', [
+            'publicKey' => $this->khalti->getPublicKey(),
+        ]);
     }
 
     //Intial Transaction
@@ -71,7 +73,7 @@ class KhaltiController extends Controller
         curl_setopt($ch, CURLOPT_POSTFIELDS,$args);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
-        $headers = ['Authorization: Key '.env('KHALTI_TEST_SECRET', '')];
+        $headers = ['Authorization: Key ' .  $this->khalti->getSecretKey()];
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
         // Response

@@ -42,7 +42,7 @@
 
 		var config = {
     		// replace the publicKey with yours
-            "publicKey": "{{env('KHALTI_TEST_PUBLIC', '')}}",
+            "publicKey": "{{ $publicKey }}",
             "productIdentity": "1234567890",
             "productName": "Account Topup",
             "productName": "Dragon",
